@@ -1,0 +1,168 @@
+[2024-05-11T15:12:13.562-0300] {processor.py:161} INFO - Started process (PID=4636) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:12:13.563-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:12:13.566-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:12:13.566-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:12:13.576-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:12:13.735-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:12:13.735-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:12:13.922-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:12:13.922-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-11T15:12:13.966-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.411 seconds
+[2024-05-11T15:14:35.071-0300] {processor.py:161} INFO - Started process (PID=4888) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:14:35.074-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:14:35.078-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:14:35.077-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:14:35.091-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:14:35.171-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:14:35.171-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:14:35.618-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:14:35.618-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:14:35.671-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.609 seconds
+[2024-05-11T15:15:52.192-0300] {processor.py:161} INFO - Started process (PID=5055) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:15:52.199-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:15:52.206-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:15:52.204-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:15:52.230-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:15:52.275-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:15:52.274-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:15:52.324-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:15:52.324-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:15:52.392-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.215 seconds
+[2024-05-11T15:16:50.310-0300] {processor.py:161} INFO - Started process (PID=5167) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:16:50.312-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:16:50.315-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:16:50.315-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:16:50.328-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:16:50.347-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:16:50.347-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:16:50.371-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:16:50.371-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:16:50.416-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.113 seconds
+[2024-05-11T15:17:57.445-0300] {processor.py:161} INFO - Started process (PID=5327) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:17:57.448-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:17:57.450-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:17:57.450-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:17:57.460-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:17:57.477-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:17:57.477-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:17:57.498-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:17:57.498-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:17:57.544-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.106 seconds
+[2024-05-11T15:19:06.806-0300] {processor.py:161} INFO - Started process (PID=5940) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:19:06.814-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:19:06.817-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:19:06.817-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:19:06.835-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:19:06.855-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:19:06.854-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:19:06.900-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:19:06.900-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:19:06.969-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.171 seconds
+[2024-05-11T15:20:15.078-0300] {processor.py:161} INFO - Started process (PID=6085) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:20:15.082-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:20:15.086-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:20:15.085-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:20:15.098-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:20:15.119-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:20:15.118-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:20:15.154-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:20:15.154-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:20:15.202-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.132 seconds
+[2024-05-11T15:22:11.032-0300] {processor.py:161} INFO - Started process (PID=6283) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:22:11.036-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:22:11.039-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:22:11.038-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:22:11.050-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:22:11.067-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:22:11.067-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:22:11.088-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:22:11.088-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:22:11.122-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.097 seconds
+[2024-05-11T15:23:16.606-0300] {processor.py:161} INFO - Started process (PID=6430) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:23:16.612-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:23:16.620-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:23:16.619-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:23:16.632-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:23:16.651-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:23:16.650-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:23:16.673-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:23:16.672-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:23:16.710-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.111 seconds
+[2024-05-11T15:24:18.815-0300] {processor.py:161} INFO - Started process (PID=6544) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:24:18.817-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:24:18.820-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:24:18.820-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:24:18.829-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:24:18.849-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:24:18.848-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:24:18.871-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:24:18.871-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:24:18.903-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.097 seconds
+[2024-05-11T15:27:12.573-0300] {processor.py:161} INFO - Started process (PID=7613) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:27:12.583-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:27:12.588-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:27:12.586-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:27:12.603-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:27:12.775-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:27:12.774-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:27:13.006-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:27:13.006-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:27:13.043-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.511 seconds
+[2024-05-11T15:28:42.520-0300] {processor.py:161} INFO - Started process (PID=7792) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:28:42.527-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:28:42.530-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:28:42.529-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:28:42.571-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:28:42.608-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:28:42.608-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:28:42.720-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:28:42.720-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:28:42.757-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.258 seconds
+[2024-05-11T15:30:09.154-0300] {processor.py:161} INFO - Started process (PID=7970) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:30:09.259-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:30:09.269-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:30:09.264-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:30:09.283-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:30:09.311-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:30:09.311-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:30:09.385-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:30:09.385-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:30:09.799-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.653 seconds
+[2024-05-11T15:31:28.844-0300] {processor.py:161} INFO - Started process (PID=8181) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:31:28.854-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:31:28.862-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:31:28.860-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:31:28.892-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:31:28.943-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:31:28.942-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:31:29.000-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:31:28.999-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:31:29.075-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.254 seconds
+[2024-05-11T15:32:33.312-0300] {processor.py:161} INFO - Started process (PID=8460) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:32:33.315-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:32:33.317-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:32:33.317-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:32:33.327-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:32:33.346-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:32:33.345-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:32:33.373-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:32:33.373-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:32:33.405-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.099 seconds
+[2024-05-11T15:33:40.420-0300] {processor.py:161} INFO - Started process (PID=8845) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:33:40.424-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:33:40.427-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:33:40.426-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:33:40.481-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:33:40.508-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:33:40.508-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:33:40.541-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:33:40.541-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:33:40.627-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.232 seconds
+[2024-05-11T15:34:59.361-0300] {processor.py:161} INFO - Started process (PID=9379) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:34:59.368-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:34:59.378-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:34:59.377-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:34:59.396-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:34:59.413-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:34:59.412-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:34:59.438-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:34:59.437-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:34:59.523-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.169 seconds
+[2024-05-11T15:36:14.688-0300] {processor.py:161} INFO - Started process (PID=9578) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:36:14.692-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:36:14.696-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:36:14.696-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:36:14.727-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:36:14.759-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:36:14.755-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:36:14.816-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:36:14.816-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:36:15.274-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.600 seconds
+[2024-05-11T15:37:58.883-0300] {processor.py:161} INFO - Started process (PID=9890) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:37:59.202-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:37:59.205-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:37:59.205-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:37:59.233-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:37:59.271-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:37:59.271-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:37:59.305-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:37:59.305-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:38:00.470-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 1.599 seconds
+[2024-05-11T15:39:54.477-0300] {processor.py:161} INFO - Started process (PID=10089) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:39:54.516-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T15:39:54.527-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:39:54.525-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:39:54.638-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T15:39:54.759-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:39:54.759-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T15:39:54.890-0300] {logging_mixin.py:188} INFO - [2024-05-11T15:39:54.890-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T15:39:54.927-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.486 seconds
+[2024-05-11T16:29:33.215-0300] {processor.py:161} INFO - Started process (PID=11134) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:29:33.373-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T16:29:33.386-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:29:33.384-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:29:33.441-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:29:34.421-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:29:34.421-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T16:29:40.210-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:29:40.209-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T16:29:51.567-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 18.371 seconds
+[2024-05-11T16:32:21.840-0300] {processor.py:161} INFO - Started process (PID=11446) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:32:21.859-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T16:32:21.895-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:32:21.893-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:32:21.922-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:32:22.186-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:32:22.185-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T16:32:22.269-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:32:22.269-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T16:32:22.339-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.546 seconds
+[2024-05-11T16:34:11.428-0300] {processor.py:161} INFO - Started process (PID=11697) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:34:11.443-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T16:34:11.450-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:34:11.449-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:34:11.480-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:34:11.653-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:34:11.652-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T16:34:11.720-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:34:11.719-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T16:34:11.911-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.509 seconds
+[2024-05-11T16:35:49.201-0300] {processor.py:161} INFO - Started process (PID=11850) to work on /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:35:49.210-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/dags/meu_dag.py for tasks to queue
+[2024-05-11T16:35:49.215-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:35:49.214-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:35:49.252-0300] {processor.py:840} INFO - DAG(s) 'meu_dag' retrieved from /home/patricia/Documentos/airflow/dags/meu_dag.py
+[2024-05-11T16:35:49.296-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:35:49.296-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-11T16:35:49.349-0300] {logging_mixin.py:188} INFO - [2024-05-11T16:35:49.348-0300] {dag.py:3954} INFO - Setting next_dagrun for meu_dag to 2024-05-11 00:00:00+00:00, run_after=2024-05-12 00:00:00+00:00
+[2024-05-11T16:35:49.563-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/dags/meu_dag.py took 0.382 seconds

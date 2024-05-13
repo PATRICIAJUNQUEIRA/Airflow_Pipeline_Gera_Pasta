@@ -1,0 +1,2 @@
+,name,datetime,tempmax,tempmin,temp,feelslikemax,feelslikemin,feelslike,dew,humidity,precip,precipprob,precipcover,preciptype,snow,snowdepth,windgust,windspeed,winddir,sealevelpressure,cloudcover,visibility,solarradiation,solarenergy,uvindex,severerisk,sunrise,sunset,moonphase,conditions,description,icon,stations
+0,"Boston, MA, United States",2024-05-10,12.3,8.3,10,12.3,6.2,8.6,5.1,72.4,0,0,0,,0,0,42.2,29.3,73.6,1010.3,76.9,16,220.7,19,8,10,2024-05-10T05:27:37,2024-05-10T19:54:23,0.08,Partially cloudy,Partly cloudy throughout the day.,partly-cloudy-day,"KOWD,KBED,0518W,KBOS"

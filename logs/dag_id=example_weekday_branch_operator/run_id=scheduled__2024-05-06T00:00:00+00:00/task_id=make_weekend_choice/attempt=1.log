@@ -1,0 +1,19 @@
+[2024-05-07T12:56:06.450-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-07T12:56:06.467-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_weekday_branch_operator.make_weekend_choice scheduled__2024-05-06T00:00:00+00:00 [queued]>
+[2024-05-07T12:56:06.474-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_weekday_branch_operator.make_weekend_choice scheduled__2024-05-06T00:00:00+00:00 [queued]>
+[2024-05-07T12:56:06.475-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-07T12:56:06.548-0300] {taskinstance.py:2330} INFO - Executing <Task(BranchDayOfWeekOperator): make_weekend_choice> on 2024-05-06 00:00:00+00:00
+[2024-05-07T12:56:06.557-0300] {standard_task_runner.py:63} INFO - Started process 10093 to run task
+[2024-05-07T12:56:06.562-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'example_weekday_branch_operator', 'make_weekend_choice', 'scheduled__2024-05-06T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', '/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py', '--cfg-path', '/tmp/tmphhibny8g']
+[2024-05-07T12:56:06.563-0300] {standard_task_runner.py:91} INFO - Job 8: Subtask make_weekend_choice
+[2024-05-07T12:56:06.637-0300] {task_command.py:426} INFO - Running <TaskInstance: example_weekday_branch_operator.make_weekend_choice scheduled__2024-05-06T00:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-05-07T12:56:06.738-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_weekday_branch_operator' AIRFLOW_CTX_TASK_ID='make_weekend_choice' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-06T00:00:00+00:00'
+[2024-05-07T12:56:06.739-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-07T12:56:06.739-0300] {branch.py:36} INFO - Branch into branch_mid_week
+[2024-05-07T12:56:06.739-0300] {skipmixin.py:178} INFO - Following branch branch_mid_week
+[2024-05-07T12:56:06.753-0300] {skipmixin.py:246} INFO - Skipping tasks [('branch_weekend', -1)]
+[2024-05-07T12:56:06.804-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-07T12:56:06.826-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=example_weekday_branch_operator, task_id=make_weekend_choice, run_id=scheduled__2024-05-06T00:00:00+00:00, execution_date=20240506T000000, start_date=20240507T155606, end_date=20240507T155606
+[2024-05-07T12:56:06.877-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-07T12:56:06.918-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-07T12:56:06.920-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

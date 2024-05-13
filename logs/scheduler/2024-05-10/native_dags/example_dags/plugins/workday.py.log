@@ -1,0 +1,730 @@
+[2024-05-09T22:04:18.225-0300] {processor.py:161} INFO - Started process (PID=5031) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:04:18.226-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:04:18.233-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:04:18.233-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:04:18.290-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:04:18.284-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:04:18.291-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:04:18.332-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.120 seconds
+[2024-05-09T22:05:26.175-0300] {processor.py:161} INFO - Started process (PID=5144) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:05:26.177-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:05:26.180-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:05:26.179-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:05:26.194-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:05:26.191-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:05:26.205-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:05:26.257-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.145 seconds
+[2024-05-09T22:06:37.054-0300] {processor.py:161} INFO - Started process (PID=5261) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:06:37.057-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:06:37.059-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:06:37.059-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:06:37.076-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:06:37.074-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:06:37.077-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:06:37.156-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.109 seconds
+[2024-05-09T22:08:33.016-0300] {processor.py:161} INFO - Started process (PID=5418) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:08:33.018-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:08:33.020-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:08:33.020-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:08:33.036-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:08:33.034-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:08:33.037-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:08:33.067-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.059 seconds
+[2024-05-09T22:09:48.316-0300] {processor.py:161} INFO - Started process (PID=5551) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:09:48.326-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:09:48.332-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:09:48.331-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:09:48.374-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:09:48.359-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:09:48.382-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:09:48.448-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.157 seconds
+[2024-05-09T22:11:01.930-0300] {processor.py:161} INFO - Started process (PID=5677) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:11:01.932-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:11:01.935-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:11:01.934-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:11:01.947-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:11:01.945-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:11:01.947-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:11:01.978-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2024-05-09T22:12:05.998-0300] {processor.py:161} INFO - Started process (PID=5774) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:12:06.002-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:12:06.009-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:12:06.009-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:12:06.022-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:12:06.021-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:12:06.023-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:12:06.054-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.066 seconds
+[2024-05-09T22:13:08.570-0300] {processor.py:161} INFO - Started process (PID=5876) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:13:08.574-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:13:08.579-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:13:08.578-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:13:08.593-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:13:08.592-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:13:08.595-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:13:08.636-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.076 seconds
+[2024-05-09T22:14:14.460-0300] {processor.py:161} INFO - Started process (PID=5987) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:14:14.462-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:14:14.465-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:14:14.464-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:14:14.477-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:14:14.476-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:14:14.478-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:14:14.508-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2024-05-09T22:15:14.939-0300] {processor.py:161} INFO - Started process (PID=6113) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:15:14.942-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-09T22:15:14.945-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:15:14.944-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:15:14.956-0300] {logging_mixin.py:188} INFO - [2024-05-09T22:15:14.955-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-09T22:15:14.957-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-09T22:15:14.985-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2024-05-10T14:17:52.686-0300] {processor.py:161} INFO - Started process (PID=3782) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:17:52.700-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:17:52.703-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:17:52.702-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:17:52.752-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:17:52.746-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:17:52.752-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:17:52.813-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.146 seconds
+[2024-05-10T14:19:01.493-0300] {processor.py:161} INFO - Started process (PID=3911) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:19:01.495-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:19:01.497-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:19:01.497-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:19:01.507-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:19:01.506-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:19:01.508-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:19:01.534-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2024-05-10T14:20:05.542-0300] {processor.py:161} INFO - Started process (PID=4010) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:20:05.545-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:20:05.549-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:20:05.548-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:20:05.559-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:20:05.558-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:20:05.560-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:20:05.587-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.059 seconds
+[2024-05-10T14:21:16.981-0300] {processor.py:161} INFO - Started process (PID=4112) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:21:16.992-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:21:16.994-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:21:16.994-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:21:17.005-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:21:17.004-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:21:17.006-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:21:17.244-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.270 seconds
+[2024-05-10T14:22:23.993-0300] {processor.py:161} INFO - Started process (PID=4225) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:22:23.996-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:22:23.998-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:22:23.997-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:22:24.008-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:22:24.007-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:22:24.009-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:22:24.037-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.051 seconds
+[2024-05-10T14:23:25.885-0300] {processor.py:161} INFO - Started process (PID=4832) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:23:25.901-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:23:25.933-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:23:25.932-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:23:25.971-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:23:25.967-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:23:25.972-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:23:26.102-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.250 seconds
+[2024-05-10T14:31:21.098-0300] {processor.py:161} INFO - Started process (PID=6996) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:31:21.105-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:31:21.111-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:31:21.109-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:31:21.138-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:31:21.136-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:31:21.139-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:31:21.180-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.097 seconds
+[2024-05-10T14:32:48.578-0300] {processor.py:161} INFO - Started process (PID=7873) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:32:48.581-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:32:48.584-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:32:48.583-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:32:48.595-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:32:48.594-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:32:48.596-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:32:48.643-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.077 seconds
+[2024-05-10T14:33:52.759-0300] {processor.py:161} INFO - Started process (PID=7975) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:33:52.762-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T14:33:52.765-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:33:52.765-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:33:52.783-0300] {logging_mixin.py:188} INFO - [2024-05-10T14:33:52.782-0300] {dagbag.py:355} ERROR - Failed to import: /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/__init__.py", line 26, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 9, in <module>
+    _np_version = np.__version__
+AttributeError: module 'numpy' has no attribute '__version__'
+[2024-05-10T14:33:52.783-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T14:33:52.813-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.063 seconds
+[2024-05-10T16:34:05.298-0300] {processor.py:161} INFO - Started process (PID=11735) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:34:05.304-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:34:05.306-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:34:05.305-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:34:05.986-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:34:06.009-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.718 seconds
+[2024-05-10T16:35:22.696-0300] {processor.py:161} INFO - Started process (PID=11890) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:35:22.698-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:35:22.701-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:35:22.700-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:35:23.449-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:35:23.458-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.769 seconds
+[2024-05-10T16:36:34.894-0300] {processor.py:161} INFO - Started process (PID=12048) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:36:34.906-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:36:34.909-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:36:34.908-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:36:35.326-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:36:35.336-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.460 seconds
+[2024-05-10T16:37:43.742-0300] {processor.py:161} INFO - Started process (PID=12202) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:37:43.744-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:37:43.747-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:37:43.747-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:37:44.418-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:37:44.445-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.714 seconds
+[2024-05-10T16:38:47.137-0300] {processor.py:161} INFO - Started process (PID=12423) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:38:47.152-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:38:47.157-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:38:47.157-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:38:47.597-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:38:47.622-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.499 seconds
+[2024-05-10T16:39:51.417-0300] {processor.py:161} INFO - Started process (PID=12566) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:39:51.420-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:39:51.423-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:39:51.422-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:39:52.020-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:39:52.033-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.626 seconds
+[2024-05-10T16:41:43.799-0300] {processor.py:161} INFO - Started process (PID=12815) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:41:43.815-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:41:43.826-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:41:43.826-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:41:44.337-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:41:44.350-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.562 seconds
+[2024-05-10T16:42:49.296-0300] {processor.py:161} INFO - Started process (PID=12950) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:42:49.298-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:42:49.301-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:42:49.300-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:42:49.964-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:42:49.985-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.697 seconds
+[2024-05-10T16:44:26.796-0300] {processor.py:161} INFO - Started process (PID=13104) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:44:26.799-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:44:26.801-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:44:26.801-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:44:27.267-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:44:27.274-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.486 seconds
+[2024-05-10T16:45:29.780-0300] {processor.py:161} INFO - Started process (PID=13246) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:45:29.784-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:45:29.787-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:45:29.786-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:45:30.221-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:45:30.252-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.479 seconds
+[2024-05-10T16:46:32.004-0300] {processor.py:161} INFO - Started process (PID=13391) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:46:32.009-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:46:32.015-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:46:32.014-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:46:32.657-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:46:32.667-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.678 seconds
+[2024-05-10T16:47:36.319-0300] {processor.py:161} INFO - Started process (PID=13526) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:47:36.323-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:47:36.326-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:47:36.326-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:47:36.857-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:47:36.872-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.561 seconds
+[2024-05-10T16:48:35.346-0300] {processor.py:161} INFO - Started process (PID=13664) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:48:35.348-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:48:35.350-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:48:35.350-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:48:35.753-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:48:35.763-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.425 seconds
+[2024-05-10T16:49:32.826-0300] {processor.py:161} INFO - Started process (PID=13793) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:49:32.828-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:49:32.831-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:49:32.830-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:49:33.211-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:49:33.231-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.412 seconds
+[2024-05-10T16:50:29.291-0300] {processor.py:161} INFO - Started process (PID=13909) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:50:29.294-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:50:29.297-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:50:29.296-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:50:29.679-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:50:29.690-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.405 seconds
+[2024-05-10T16:51:38.940-0300] {processor.py:161} INFO - Started process (PID=14051) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:51:38.944-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:51:38.951-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:51:38.950-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:51:39.411-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:51:39.422-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.496 seconds
+[2024-05-10T16:52:57.521-0300] {processor.py:161} INFO - Started process (PID=14291) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:52:57.525-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:52:57.534-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:52:57.533-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:52:58.215-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:52:58.233-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.727 seconds
+[2024-05-10T16:53:59.385-0300] {processor.py:161} INFO - Started process (PID=14436) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:53:59.387-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:53:59.390-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:53:59.389-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:53:59.941-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:53:59.978-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.603 seconds
+[2024-05-10T16:54:52.640-0300] {processor.py:161} INFO - Started process (PID=14541) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:54:52.643-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:54:52.646-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:54:52.645-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:54:53.120-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:54:53.132-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.499 seconds
+[2024-05-10T16:55:54.929-0300] {processor.py:161} INFO - Started process (PID=14668) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:55:54.931-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:55:54.934-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:55:54.934-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:55:55.393-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:55:55.404-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.483 seconds
+[2024-05-10T16:56:52.393-0300] {processor.py:161} INFO - Started process (PID=14873) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:56:52.396-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:56:52.399-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:56:52.399-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:56:53.122-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:56:53.134-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.752 seconds
+[2024-05-10T16:57:50.334-0300] {processor.py:161} INFO - Started process (PID=15035) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:57:50.342-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:57:50.346-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:57:50.345-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:57:50.768-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:57:50.789-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.462 seconds
+[2024-05-10T16:59:00.995-0300] {processor.py:161} INFO - Started process (PID=15201) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:59:01.223-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T16:59:01.227-0300] {logging_mixin.py:188} INFO - [2024-05-10T16:59:01.226-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:59:01.745-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T16:59:01.758-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.770 seconds
+[2024-05-10T17:00:11.912-0300] {processor.py:161} INFO - Started process (PID=15357) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:00:11.914-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:00:11.918-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:00:11.917-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:00:12.313-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:00:12.329-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.424 seconds
+[2024-05-10T17:01:07.607-0300] {processor.py:161} INFO - Started process (PID=15487) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:01:07.609-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:01:07.611-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:01:07.610-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:01:08.272-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:01:08.283-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.684 seconds
+[2024-05-10T17:02:04.948-0300] {processor.py:161} INFO - Started process (PID=15603) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:02:04.950-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:02:04.953-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:02:04.952-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:02:05.428-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:02:05.439-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.499 seconds
+[2024-05-10T17:03:06.535-0300] {processor.py:161} INFO - Started process (PID=15747) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:03:06.538-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:03:06.542-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:03:06.541-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:03:07.716-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:03:07.735-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.212 seconds
+[2024-05-10T17:05:36.537-0300] {processor.py:161} INFO - Started process (PID=16001) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:05:36.548-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:05:36.551-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:05:36.550-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:05:39.841-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:05:39.904-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 3.381 seconds
+[2024-05-10T17:07:10.289-0300] {processor.py:161} INFO - Started process (PID=16547) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:07:10.310-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:07:10.314-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:07:10.312-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:07:11.631-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:07:11.649-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.394 seconds
+[2024-05-10T17:08:21.178-0300] {processor.py:161} INFO - Started process (PID=16707) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:08:21.183-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:08:21.187-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:08:21.185-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:08:21.845-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:08:21.855-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.695 seconds
+[2024-05-10T17:09:34.683-0300] {processor.py:161} INFO - Started process (PID=17052) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:09:34.772-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:09:34.773-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:09:34.773-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:09:44.513-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:09:44.524-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 9.851 seconds
+[2024-05-10T17:10:58.128-0300] {processor.py:161} INFO - Started process (PID=17178) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:10:58.131-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:10:58.133-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:10:58.132-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:10:58.659-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:10:58.667-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.546 seconds
+[2024-05-10T17:11:52.521-0300] {processor.py:161} INFO - Started process (PID=17266) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:11:52.524-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:11:52.526-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:11:52.525-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:11:53.055-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:11:53.062-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.549 seconds
+[2024-05-10T17:12:48.230-0300] {processor.py:161} INFO - Started process (PID=17363) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:12:48.233-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:12:48.234-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:12:48.234-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:12:48.740-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:12:48.749-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.526 seconds
+[2024-05-10T17:14:07.106-0300] {processor.py:161} INFO - Started process (PID=17490) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:14:07.108-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:14:07.110-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:14:07.110-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:14:07.652-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:14:07.659-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.562 seconds
+[2024-05-10T17:15:25.254-0300] {processor.py:161} INFO - Started process (PID=17699) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:15:25.256-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:15:25.258-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:15:25.257-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:15:25.744-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:15:25.752-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.506 seconds
+[2024-05-10T17:16:20.390-0300] {processor.py:161} INFO - Started process (PID=17794) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:16:20.392-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:16:20.393-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:16:20.393-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:16:20.909-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:16:20.916-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.534 seconds
+[2024-05-10T17:17:14.922-0300] {processor.py:161} INFO - Started process (PID=17889) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:17:14.926-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:17:14.929-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:17:14.928-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:17:15.622-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:17:15.648-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.736 seconds
+[2024-05-10T17:18:19.594-0300] {processor.py:161} INFO - Started process (PID=17995) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:18:19.596-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:18:19.600-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:18:19.598-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:18:20.093-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:18:20.105-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.518 seconds
+[2024-05-10T17:20:04.974-0300] {processor.py:161} INFO - Started process (PID=18131) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:20:04.976-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:20:04.978-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:20:04.977-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:20:05.488-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:20:05.496-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.529 seconds
+[2024-05-10T17:21:18.466-0300] {processor.py:161} INFO - Started process (PID=18264) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:21:18.469-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:21:18.470-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:21:18.470-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:21:19.079-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:21:19.088-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.631 seconds
+[2024-05-10T17:22:16.442-0300] {processor.py:161} INFO - Started process (PID=18366) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:22:16.445-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:22:16.446-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:22:16.446-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:22:16.956-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:22:16.964-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.530 seconds
+[2024-05-10T17:23:11.784-0300] {processor.py:161} INFO - Started process (PID=18485) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:23:11.787-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:23:11.789-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:23:11.788-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:23:12.285-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:23:12.294-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.517 seconds
+[2024-05-10T17:24:30.557-0300] {processor.py:161} INFO - Started process (PID=18618) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:24:30.559-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:24:30.561-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:24:30.561-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:24:31.050-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:24:31.058-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.508 seconds
+[2024-05-10T17:25:51.917-0300] {processor.py:161} INFO - Started process (PID=18756) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:25:51.920-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:25:51.922-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:25:51.921-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:25:52.439-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:25:52.447-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.537 seconds
+[2024-05-10T17:26:45.861-0300] {processor.py:161} INFO - Started process (PID=18849) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:26:45.863-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:26:45.865-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:26:45.864-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:26:46.359-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:26:46.367-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.513 seconds
+[2024-05-10T17:27:39.083-0300] {processor.py:161} INFO - Started process (PID=18931) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:27:39.086-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:27:39.087-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:27:39.087-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:27:39.611-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:27:39.619-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.543 seconds
+[2024-05-10T17:29:08.898-0300] {processor.py:161} INFO - Started process (PID=19089) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:29:08.900-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:29:08.902-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:29:08.901-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:29:09.416-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:29:09.424-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.533 seconds
+[2024-05-10T17:30:05.083-0300] {processor.py:161} INFO - Started process (PID=19185) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:30:05.086-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:30:05.088-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:30:05.087-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:30:05.596-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:30:05.604-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.530 seconds
+[2024-05-10T17:31:21.832-0300] {processor.py:161} INFO - Started process (PID=19313) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:31:21.834-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:31:21.835-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:31:21.835-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:31:22.356-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:31:22.364-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.539 seconds
+[2024-05-10T17:32:41.155-0300] {processor.py:161} INFO - Started process (PID=19442) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:32:41.157-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:32:41.159-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:32:41.158-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:32:41.718-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:32:41.729-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.581 seconds
+[2024-05-10T17:33:39.264-0300] {processor.py:161} INFO - Started process (PID=19537) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:33:39.267-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:33:39.268-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:33:39.268-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:33:39.831-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:33:39.843-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.586 seconds
+[2024-05-10T17:34:40.007-0300] {processor.py:161} INFO - Started process (PID=19641) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:34:40.009-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:34:40.011-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:34:40.011-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:34:40.614-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:34:40.624-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.625 seconds
+[2024-05-10T17:35:38.858-0300] {processor.py:161} INFO - Started process (PID=19742) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:35:38.861-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:35:38.863-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:35:38.862-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:35:39.445-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:35:39.455-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.608 seconds
+[2024-05-10T17:36:34.167-0300] {processor.py:161} INFO - Started process (PID=19836) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:36:34.170-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:36:34.171-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:36:34.171-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:36:34.697-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:36:34.705-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.546 seconds
+[2024-05-10T17:37:32.394-0300] {processor.py:161} INFO - Started process (PID=19927) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:37:32.398-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:37:32.403-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:37:32.402-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:37:33.066-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:37:33.080-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.698 seconds
+[2024-05-10T17:39:18.971-0300] {processor.py:161} INFO - Started process (PID=20043) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:39:18.974-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:39:18.977-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:39:18.976-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:39:19.547-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:39:19.558-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.596 seconds
+[2024-05-10T17:40:21.048-0300] {processor.py:161} INFO - Started process (PID=20150) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:40:21.050-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:40:21.052-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:40:21.051-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:40:21.562-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:40:21.570-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.529 seconds
+[2024-05-10T17:41:13.858-0300] {processor.py:161} INFO - Started process (PID=20240) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:41:13.860-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:41:13.862-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:41:13.861-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:41:14.344-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:41:14.352-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.501 seconds
+[2024-05-10T17:42:14.797-0300] {processor.py:161} INFO - Started process (PID=20340) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:42:14.800-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:42:14.801-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:42:14.801-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:42:15.310-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:42:15.319-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.529 seconds
+[2024-05-10T17:43:10.619-0300] {processor.py:161} INFO - Started process (PID=20443) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:43:10.622-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:43:10.623-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:43:10.623-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:43:11.194-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:43:11.207-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.596 seconds
+[2024-05-10T17:44:33.951-0300] {processor.py:161} INFO - Started process (PID=20574) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:44:33.954-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:44:33.955-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:44:33.954-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:44:34.444-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:44:34.454-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.510 seconds
+[2024-05-10T17:45:52.640-0300] {processor.py:161} INFO - Started process (PID=20712) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:45:52.642-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:45:52.644-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:45:52.643-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:45:53.165-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:45:53.173-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.541 seconds
+[2024-05-10T17:46:49.880-0300] {processor.py:161} INFO - Started process (PID=20808) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:46:49.882-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:46:49.883-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:46:49.883-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:46:50.383-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:46:50.390-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.519 seconds
+[2024-05-10T17:47:43.567-0300] {processor.py:161} INFO - Started process (PID=20905) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:47:43.570-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:47:43.573-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:47:43.572-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:47:44.410-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:47:44.422-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.865 seconds
+[2024-05-10T17:48:42.309-0300] {processor.py:161} INFO - Started process (PID=20999) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:48:42.312-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:48:42.313-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:48:42.313-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:48:42.841-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:48:42.851-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.549 seconds
+[2024-05-10T17:49:36.035-0300] {processor.py:161} INFO - Started process (PID=21099) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:49:36.037-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:49:36.039-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:49:36.038-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:49:36.599-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:49:36.609-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.582 seconds
+[2024-05-10T17:51:20.770-0300] {processor.py:161} INFO - Started process (PID=21252) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:51:20.773-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:51:20.774-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:51:20.773-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:51:21.246-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:51:21.254-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.491 seconds
+[2024-05-10T17:52:23.778-0300] {processor.py:161} INFO - Started process (PID=21478) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:52:23.781-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:52:23.782-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:52:23.782-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:52:24.536-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:52:24.545-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.774 seconds
+[2024-05-10T17:53:26.726-0300] {processor.py:161} INFO - Started process (PID=21592) to work on /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:53:26.729-0300] {processor.py:830} INFO - Processing file /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:53:26.732-0300] {logging_mixin.py:188} INFO - [2024-05-10T17:53:26.731-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:53:27.541-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:53:27.565-0300] {processor.py:183} INFO - Processing /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.850 seconds

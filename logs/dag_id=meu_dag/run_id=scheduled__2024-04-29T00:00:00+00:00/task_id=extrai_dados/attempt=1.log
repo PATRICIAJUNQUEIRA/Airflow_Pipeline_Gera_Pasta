@@ -1,0 +1,19 @@
+[2024-05-13T13:00:26.706-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-13T13:00:26.726-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: meu_dag.extrai_dados scheduled__2024-04-29T00:00:00+00:00 [queued]>
+[2024-05-13T13:00:26.762-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: meu_dag.extrai_dados scheduled__2024-04-29T00:00:00+00:00 [queued]>
+[2024-05-13T13:00:26.762-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-05-13T13:00:26.819-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extrai_dados> on 2024-04-29 00:00:00+00:00
+[2024-05-13T13:00:26.835-0300] {standard_task_runner.py:63} INFO - Started process 22263 to run task
+[2024-05-13T13:00:26.844-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'meu_dag', 'extrai_dados', 'scheduled__2024-04-29T00:00:00+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmp0hcrbpk8']
+[2024-05-13T13:00:26.845-0300] {standard_task_runner.py:91} INFO - Job 62: Subtask extrai_dados
+[2024-05-13T13:00:26.969-0300] {task_command.py:426} INFO - Running <TaskInstance: meu_dag.extrai_dados scheduled__2024-04-29T00:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-05-13T13:00:27.189-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='meu_dag' AIRFLOW_CTX_TASK_ID='extrai_dados' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-29T00:00:00+00:00'
+[2024-05-13T13:00:27.194-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-13T13:00:27.195-0300] {dados_climaticos.py:37} INFO - Baixando dados de https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Boston/2024-04-29/2024-04-29?unitGroup=metric&include=days&key=LBGDWPHK4ZVDH8AJL5KDVAJC5&contentType=csv
+[2024-05-13T13:00:28.084-0300] {dados_climaticos.py:41} INFO - Salvando dados em /home/patricia/Documentos/airflow/pasta_2024-04-29/
+[2024-05-13T13:00:28.197-0300] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-13T13:00:28.198-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-13T13:00:28.211-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=meu_dag, task_id=extrai_dados, run_id=scheduled__2024-04-29T00:00:00+00:00, execution_date=20240429T000000, start_date=20240513T160026, end_date=20240513T160028
+[2024-05-13T13:00:28.281-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-13T13:00:28.303-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-13T13:00:28.304-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
