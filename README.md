@@ -37,7 +37,7 @@ Para executar o pipeline, ative a DAG correspondente no painel do Airflow. Ajust
 ## Imagens e Visualizações
 
 ### Diagrama de Tarefas no Airflow
-![image](https://github.com/PATRICIAJUNQUEIRA/Airflow_Pipeline_Gera_Pasta/assets/96187596/314eb17a-5e6b-4d0d-8ccf-0958eb70e165)
+![image](https://github.com/PATRICIAJUNQUEIRA/Airflow_Pipeline_Gera_Pasta/assets/96187596/2d709f1b-ff88-4d3e-9883-74b0248aad3b)
 
 
 ### Calendário de Execuções no Airflow
