@@ -1,0 +1,40 @@
+[2024-06-04T16:07:31.206-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-04T16:07:31.238-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: meu_dag.extrai_dados scheduled__2024-05-27T09:00:00+00:00 [queued]>
+[2024-06-04T16:07:31.259-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: meu_dag.extrai_dados scheduled__2024-05-27T09:00:00+00:00 [queued]>
+[2024-06-04T16:07:31.259-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-04T16:07:31.287-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extrai_dados> on 2024-05-27 09:00:00+00:00
+[2024-06-04T16:07:31.294-0300] {standard_task_runner.py:63} INFO - Started process 24968 to run task
+[2024-06-04T16:07:31.299-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'meu_dag', 'extrai_dados', 'scheduled__2024-05-27T09:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpgjj4m9sx']
+[2024-06-04T16:07:31.300-0300] {standard_task_runner.py:91} INFO - Job 114: Subtask extrai_dados
+[2024-06-04T16:07:31.411-0300] {task_command.py:426} INFO - Running <TaskInstance: meu_dag.extrai_dados scheduled__2024-05-27T09:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-06-04T16:07:31.543-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='meu_dag' AIRFLOW_CTX_TASK_ID='extrai_dados' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-27T09:00:00+00:00'
+[2024-06-04T16:07:31.573-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-04T16:07:31.591-0300] {logging_mixin.py:188} WARNING - /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/utils/context.py:212 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2024-06-04T16:07:31.592-0300] {dados_climaticos.py:43} INFO - Baixando dados de https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Boston/2024-05-27 09:00:00+00:00/2024-05-27 09:00:00+00:00?unitGroup=metric&include=days&key=LBGDWPHK4ZVDH8AJL5KDVAJC5&contentType=csv
+[2024-06-04T16:07:31.621-0300] {dados_climaticos.py:53} ERROR - Erro durante a execução: URL can't contain control characters. '/VisualCrossingWebServices/rest/services/timeline/Boston/2024-05-27 09:00:00+00:00/2024-05-27 09:00:00+00:00?unitGroup=metric&include=days&key=LBGDWPHK4ZVDH8AJL5KDVAJC5&contentType=csv' (found at least ' ')
+[2024-06-04T16:07:31.623-0300] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-04T16:07:31.624-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-04T16:07:31.650-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=meu_dag, task_id=extrai_dados, run_id=scheduled__2024-05-27T09:00:00+00:00, execution_date=20240527T090000, start_date=20240604T190731, end_date=20240604T190731
+[2024-06-04T16:07:31.737-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-04T16:07:31.756-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-04T16:07:31.757-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-06-04T16:59:08.294-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-04T16:59:08.314-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: meu_dag.extrai_dados scheduled__2024-05-27T09:00:00+00:00 [queued]>
+[2024-06-04T16:59:08.320-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: meu_dag.extrai_dados scheduled__2024-05-27T09:00:00+00:00 [queued]>
+[2024-06-04T16:59:08.321-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-04T16:59:08.350-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extrai_dados> on 2024-05-27 09:00:00+00:00
+[2024-06-04T16:59:08.355-0300] {standard_task_runner.py:63} INFO - Started process 28050 to run task
+[2024-06-04T16:59:08.358-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'meu_dag', 'extrai_dados', 'scheduled__2024-05-27T09:00:00+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpa9uvthuz']
+[2024-06-04T16:59:08.364-0300] {standard_task_runner.py:91} INFO - Job 120: Subtask extrai_dados
+[2024-06-04T16:59:08.450-0300] {task_command.py:426} INFO - Running <TaskInstance: meu_dag.extrai_dados scheduled__2024-05-27T09:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-06-04T16:59:08.552-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='meu_dag' AIRFLOW_CTX_TASK_ID='extrai_dados' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-27T09:00:00+00:00'
+[2024-06-04T16:59:08.554-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-04T16:59:08.560-0300] {logging_mixin.py:188} WARNING - /home/patricia/Documentos/airflow/airflow_venv/lib/python3.10/site-packages/airflow/utils/context.py:212 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2024-06-04T16:59:08.560-0300] {dados_climaticos.py:43} INFO - Baixando dados de https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Boston/2024-05-27 09:00:00+00:00/2024-05-27 09:00:00+00:00?unitGroup=metric&include=days&key=LBGDWPHK4ZVDH8AJL5KDVAJC5&contentType=csv
+[2024-06-04T16:59:08.569-0300] {dados_climaticos.py:53} ERROR - Erro durante a execução: URL can't contain control characters. '/VisualCrossingWebServices/rest/services/timeline/Boston/2024-05-27 09:00:00+00:00/2024-05-27 09:00:00+00:00?unitGroup=metric&include=days&key=LBGDWPHK4ZVDH8AJL5KDVAJC5&contentType=csv' (found at least ' ')
+[2024-06-04T16:59:08.570-0300] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-04T16:59:08.570-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-04T16:59:08.576-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=meu_dag, task_id=extrai_dados, run_id=scheduled__2024-05-27T09:00:00+00:00, execution_date=20240527T090000, start_date=20240604T195908, end_date=20240604T195908
+[2024-06-04T16:59:08.643-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-04T16:59:08.657-0300] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-04T16:59:08.659-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

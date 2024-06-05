@@ -1,0 +1,40 @@
+[2024-06-04T17:06:15.077-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-04T17:06:15.112-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: meu_dag.Cria_pasta scheduled__2024-05-14T09:00:00+00:00 [queued]>
+[2024-06-04T17:06:15.124-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: meu_dag.Cria_pasta scheduled__2024-05-14T09:00:00+00:00 [queued]>
+[2024-06-04T17:06:15.124-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-04T17:06:15.186-0300] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): Cria_pasta> on 2024-05-14 09:00:00+00:00
+[2024-06-04T17:06:15.192-0300] {standard_task_runner.py:63} INFO - Started process 29870 to run task
+[2024-06-04T17:06:15.205-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'meu_dag', 'Cria_pasta', 'scheduled__2024-05-14T09:00:00+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/meu_dag.py', '--cfg-path', '/tmp/tmpwmg7jutr']
+[2024-06-04T17:06:15.206-0300] {standard_task_runner.py:91} INFO - Job 125: Subtask Cria_pasta
+[2024-06-04T17:06:15.402-0300] {task_command.py:426} INFO - Running <TaskInstance: meu_dag.Cria_pasta scheduled__2024-05-14T09:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-06-04T17:06:15.662-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='meu_dag' AIRFLOW_CTX_TASK_ID='Cria_pasta' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-14T09:00:00+00:00'
+[2024-06-04T17:06:15.663-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-04T17:06:15.665-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-04T17:06:15.671-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/patricia/Documentos/airflow/pasta_2024-05-14"']
+[2024-06-04T17:06:15.692-0300] {subprocess.py:86} INFO - Output:
+[2024-06-04T17:06:15.716-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-04T17:06:15.717-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-04T17:06:15.855-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=meu_dag, task_id=Cria_pasta, run_id=scheduled__2024-05-14T09:00:00+00:00, execution_date=20240514T090000, start_date=20240604T200615, end_date=20240604T200615
+[2024-06-04T17:06:15.976-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-04T17:06:16.004-0300] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-04T17:06:16.039-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-06-04T19:52:17.311-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-04T19:52:17.371-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: meu_dag.Cria_pasta scheduled__2024-05-14T09:00:00+00:00 [queued]>
+[2024-06-04T19:52:17.391-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: meu_dag.Cria_pasta scheduled__2024-05-14T09:00:00+00:00 [queued]>
+[2024-06-04T19:52:17.391-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-04T19:52:17.444-0300] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): Cria_pasta> on 2024-05-14 09:00:00+00:00
+[2024-06-04T19:52:17.456-0300] {standard_task_runner.py:63} INFO - Started process 53216 to run task
+[2024-06-04T19:52:17.473-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'meu_dag', 'Cria_pasta', 'scheduled__2024-05-14T09:00:00+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/meu_dag.py', '--cfg-path', '/tmp/tmpx440yc7k']
+[2024-06-04T19:52:17.475-0300] {standard_task_runner.py:91} INFO - Job 172: Subtask Cria_pasta
+[2024-06-04T19:52:17.619-0300] {task_command.py:426} INFO - Running <TaskInstance: meu_dag.Cria_pasta scheduled__2024-05-14T09:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-06-04T19:52:17.929-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='meu_dag' AIRFLOW_CTX_TASK_ID='Cria_pasta' AIRFLOW_CTX_EXECUTION_DATE='2024-05-14T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-14T09:00:00+00:00'
+[2024-06-04T19:52:17.937-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-04T19:52:17.939-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-04T19:52:17.940-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/patricia/Documentos/airflow/pasta_2024-05-14"']
+[2024-06-04T19:52:18.039-0300] {subprocess.py:86} INFO - Output:
+[2024-06-04T19:52:18.064-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-04T19:52:18.066-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-04T19:52:18.156-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=meu_dag, task_id=Cria_pasta, run_id=scheduled__2024-05-14T09:00:00+00:00, execution_date=20240514T090000, start_date=20240604T225217, end_date=20240604T225218
+[2024-06-04T19:52:18.247-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-04T19:52:18.334-0300] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-04T19:52:18.362-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

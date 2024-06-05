@@ -1,0 +1,40 @@
+[2024-06-05T12:28:22.357-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-05T12:28:22.406-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_patricia.create_folder scheduled__2024-06-04T00:00:00+00:00 [queued]>
+[2024-06-05T12:28:22.418-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_patricia.create_folder scheduled__2024-06-04T00:00:00+00:00 [queued]>
+[2024-06-05T12:28:22.419-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-05T12:28:22.471-0300] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): create_folder> on 2024-06-04 00:00:00+00:00
+[2024-06-05T12:28:22.512-0300] {standard_task_runner.py:63} INFO - Started process 13989 to run task
+[2024-06-05T12:28:22.585-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dag_patricia', 'create_folder', 'scheduled__2024-06-04T00:00:00+00:00', '--job-id', '243', '--raw', '--subdir', 'DAGS_FOLDER/meu_dag.py', '--cfg-path', '/tmp/tmp7lrrz6x5']
+[2024-06-05T12:28:22.587-0300] {standard_task_runner.py:91} INFO - Job 243: Subtask create_folder
+[2024-06-05T12:28:22.803-0300] {task_command.py:426} INFO - Running <TaskInstance: dag_patricia.create_folder scheduled__2024-06-04T00:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-06-05T12:28:23.028-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_patricia' AIRFLOW_CTX_TASK_ID='create_folder' AIRFLOW_CTX_EXECUTION_DATE='2024-06-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-04T00:00:00+00:00'
+[2024-06-05T12:28:23.034-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-05T12:28:23.036-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-05T12:28:23.038-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/patricia/Documentos/airflow/pasta_2024-06-04"']
+[2024-06-05T12:28:23.094-0300] {subprocess.py:86} INFO - Output:
+[2024-06-05T12:28:23.176-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-05T12:28:23.177-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-05T12:28:23.269-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_patricia, task_id=create_folder, run_id=scheduled__2024-06-04T00:00:00+00:00, execution_date=20240604T000000, start_date=20240605T152822, end_date=20240605T152823
+[2024-06-05T12:28:23.354-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-05T12:28:23.378-0300] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-05T12:28:23.427-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-06-05T15:51:20.824-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-05T15:51:20.853-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_patricia.create_folder scheduled__2024-06-04T00:00:00+00:00 [queued]>
+[2024-06-05T15:51:20.863-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_patricia.create_folder scheduled__2024-06-04T00:00:00+00:00 [queued]>
+[2024-06-05T15:51:20.864-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-05T15:51:20.903-0300] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): create_folder> on 2024-06-04 00:00:00+00:00
+[2024-06-05T15:51:20.909-0300] {standard_task_runner.py:63} INFO - Started process 82527 to run task
+[2024-06-05T15:51:20.919-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dag_patricia', 'create_folder', 'scheduled__2024-06-04T00:00:00+00:00', '--job-id', '257', '--raw', '--subdir', 'DAGS_FOLDER/meu_dag.py', '--cfg-path', '/tmp/tmpquscvyhv']
+[2024-06-05T15:51:20.932-0300] {standard_task_runner.py:91} INFO - Job 257: Subtask create_folder
+[2024-06-05T15:51:21.033-0300] {task_command.py:426} INFO - Running <TaskInstance: dag_patricia.create_folder scheduled__2024-06-04T00:00:00+00:00 [running]> on host patricia-VirtualBox
+[2024-06-05T15:51:21.160-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_patricia' AIRFLOW_CTX_TASK_ID='create_folder' AIRFLOW_CTX_EXECUTION_DATE='2024-06-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-04T00:00:00+00:00'
+[2024-06-05T15:51:21.161-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-05T15:51:21.162-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-05T15:51:21.164-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p "/home/patricia/Documentos/airflow/pasta_2024-06-04"']
+[2024-06-05T15:51:21.181-0300] {subprocess.py:86} INFO - Output:
+[2024-06-05T15:51:21.202-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-05T15:51:21.203-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-05T15:51:21.263-0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_patricia, task_id=create_folder, run_id=scheduled__2024-06-04T00:00:00+00:00, execution_date=20240604T000000, start_date=20240605T185120, end_date=20240605T185121
+[2024-06-05T15:51:21.417-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-05T15:51:21.505-0300] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-05T15:51:21.579-0300] {local_task_job_runner.py:222} INFO - ::endgroup::
